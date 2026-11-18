@@ -19,6 +19,7 @@ Get-Process SageataDreapta -ErrorAction SilentlyContinue | ForEach-Object { $_.C
 
 New-Item -ItemType Directory -Force $dest | Out-Null
 Copy-Item $src $exe -Force
+Unblock-File $exe -ErrorAction SilentlyContinue
 $readme = Join-Path $here 'CITESTE.txt'
 if (Test-Path $readme) { Copy-Item $readme $dest -Force }
 
@@ -36,6 +37,10 @@ foreach ($l in $links) {
     $sc.Save()
 }
 
+Write-Host ''
 Write-Host '  Gata! Ai "Sageata Dreapta" pe Desktop.' -ForegroundColor Green
 Write-Host '  Poti sterge folderul descarcat.'
 Write-Host ''
+Write-Host '  Daca antivirusul il sterge: deschide "Windows Security" -> "Virus & threat' -ForegroundColor Yellow
+Write-Host '  protection" -> "Protection history", gaseste Sageata Dreapta si apasa' -ForegroundColor Yellow
+Write-Host '  "Allow" / "Restore". (scrie si in CITESTE.txt)' -ForegroundColor Yellow

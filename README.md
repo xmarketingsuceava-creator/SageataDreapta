@@ -12,6 +12,16 @@ Apare shortcut-ul **Săgeata Dreapta** pe Desktop, iar folderul descărcat se po
 
 Dacă Windows afișează „Windows protected your PC”: **More info → Run anyway**.
 
+### Dacă antivirusul îl șterge
+
+Programul apasă singur taste, iar antivirusul Windows (Defender) dă uneori **alarmă falsă** la astfel de programe. Dacă îl șterge, îi spuneți o dată să aibă încredere **în acest fișier**:
+
+1. Deschideți **Windows Security** (Start → scrieți „Windows Security”).
+2. **Virus & threat protection** → **Protection history**.
+3. Găsiți „Sageata Dreapta”, apăsați **Allow** (și, dacă e cazul, **Restore**).
+
+Asta whitelistează doar programul nostru, nu slăbește protecția pe tot calculatorul.
+
 ## Folosire
 
 1. Alegeți intervalul (sau un buton rapid: 3s, 5s, 10s, 30s, 1m).
