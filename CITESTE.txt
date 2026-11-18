@@ -1,0 +1,29 @@
+SAGEATA DREAPTA - apasa automat tasta "→" la un interval ales
+==============================================================
+
+Pornire: dublu-click pe SageataDreapta.exe (nu trebuie instalat nimic).
+Pe alt calculator: deschizi PowerShell si lipesti comanda de mai jos
+(pune singur shortcut pe Desktop):
+  irm https://raw.githubusercontent.com/xmarketingsuceava-creator/SageataDreapta/main/instaleaza.ps1 | iex
+Sau: https://github.com/xmarketingsuceava-creator/SageataDreapta -> Code -> Download ZIP
+-> dezarhivezi -> dublu-click pe Instaleaza.bat
+
+Cum se foloseste:
+  1. Alegi intervalul (ex. 5 secunde) sau apesi un buton rapid (3s, 5s, 10s, 30s, 1m).
+  2. Varianta A: apesi START -> fereastra se ascunde, ai 3 secunde sa dai click
+     pe fereastra cu pozele. Apoi apasa → singur.
+     Varianta B (cea mai sigura): dai click pe fereastra cu pozele si apesi F9.
+     Porneste imediat. F9 din nou = STOP.
+  3. Pentru STOP: F9, sau deschizi fereastra din bara de jos si apesi STOP.
+
+Optiuni:
+  - "Opreste dupa" = se opreste singur dupa atatea apasari (0 = merge la infinit).
+  - Cat timp ruleaza, calculatorul nu intra in sleep si ecranul nu se stinge.
+  - Setarile se salveaza in SageataDreapta.ini, langa exe.
+
+Probleme:
+  - Sageata merge in fereastra care e ACTIVA (cea pe care ai dat click ultima data).
+  - Daca programul cu pozele e pornit "ca administrator", porneste si
+    SageataDreapta.exe cu click dreapta -> "Run as administrator".
+  - Daca Windows afiseaza "Windows protected your PC": More info -> Run anyway.
+  - Reconstruire din cod: src\build.bat
