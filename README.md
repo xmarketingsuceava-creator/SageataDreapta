@@ -4,15 +4,13 @@ Programel pentru Windows care apasă automat tasta **săgeată dreapta (→)** l
 
 ## Instalare pe un calculator nou
 
-**Varianta 1. O singură comandă:** deschideți **PowerShell** (Start → scrieți „PowerShell”) și lipiți:
+1. Apăsați butonul verde **Code → Download ZIP** de pe pagina asta.
+2. Click dreapta pe ZIP → **Extract All** (Extrage tot).
+3. În folderul dezarhivat, dați dublu-click pe **Instaleaza.bat**.
 
-```powershell
-irm https://raw.githubusercontent.com/xmarketingsuceava-creator/SageataDreapta/main/instaleaza.ps1 | iex
-```
+Apare shortcut-ul **Săgeata Dreapta** pe Desktop, iar folderul descărcat se poate șterge. Tot așa se face și actualizarea la o versiune nouă.
 
-**Varianta 2. Din ZIP:** apăsați butonul verde **Code → Download ZIP** de pe pagina asta, dezarhivați și dați dublu-click pe **Instaleaza.bat**.
-
-În ambele cazuri apare shortcut-ul **Săgeata Dreapta** pe Desktop. Tot așa se face și actualizarea la o versiune nouă.
+Dacă Windows afișează „Windows protected your PC”: **More info → Run anyway**.
 
 ## Folosire
 

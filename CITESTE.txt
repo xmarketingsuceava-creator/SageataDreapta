@@ -2,11 +2,9 @@ SAGEATA DREAPTA - apasa automat tasta "→" la un interval ales
 ==============================================================
 
 Pornire: dublu-click pe SageataDreapta.exe (nu trebuie instalat nimic).
-Pe alt calculator: deschizi PowerShell si lipesti comanda de mai jos
-(pune singur shortcut pe Desktop):
-  irm https://raw.githubusercontent.com/xmarketingsuceava-creator/SageataDreapta/main/instaleaza.ps1 | iex
-Sau: https://github.com/xmarketingsuceava-creator/SageataDreapta -> Code -> Download ZIP
--> dezarhivezi -> dublu-click pe Instaleaza.bat
+Pe alt calculator: https://github.com/xmarketingsuceava-creator/SageataDreapta
+  -> Code -> Download ZIP -> click dreapta, Extract All -> dublu-click pe Instaleaza.bat
+  (pune singur shortcut pe Desktop)
 
 Cum se foloseste:
   1. Alegi intervalul (ex. 5 secunde) sau apesi un buton rapid (3s, 5s, 10s, 30s, 1m).
